@@ -1,0 +1,46 @@
+{
+	"pages": [
+		"pages/homepage/homepage",
+		"pages/plaza/plaza",
+		"pages/shopping/shopping",
+		"pages/mine/mine",
+		"pages/Student/Student",
+		"pages/left/left"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "海滨社区",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/homepage/homepage",
+				"text": "首页",
+				"iconPath": "./images/点击前首页黑色.png",
+				"selectedIconPath": "./images/点击后首页蓝色.png"
+			},
+			{
+				"pagePath": "pages/plaza/plaza",
+				"text": "广场",
+				"iconPath": "./images/点击前广场.png",
+				"selectedIconPath": "./images/点击后广场.png"
+			},
+			{
+				"pagePath": "pages/shopping/shopping",
+				"text": "微淘",
+				"iconPath": "./images/爱生活-商城.png",
+				"selectedIconPath": "./images/爱生活-商城.png"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"text": "我的",
+				"iconPath": "./images/我的.png",
+				"selectedIconPath": "./images/我的.png"
+			}
+		]
+	},
+	"style": "v2",
+	"sitemapLocation": "sitemap.json"
+}
